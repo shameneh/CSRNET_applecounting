@@ -103,7 +103,7 @@ class CrowdDataset(torch.utils.data.Dataset):
             #weights_1 = weights_1 / np.sum(weights)*max_target
             
            # print(weights[0],weights_1[0],labels[0])
-            #exit(0)
+          
             return weights
         else:
             return None
