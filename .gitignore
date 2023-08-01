@@ -5,6 +5,6 @@
 config*
 checkpoint*/
 test_results*/
-wandb/
+wandb/ 
 runs/
 *.pyc
