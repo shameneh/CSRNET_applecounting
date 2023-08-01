@@ -68,7 +68,7 @@ def visual_counting(img,gt, dmap, output,itr):
             #if T_p != 0 and F_n != 0:
              #   recall += (T_p) / (T_p + F_n)
 
-            #print(count_patch_gt, count_patch_pred)
+     
             # Create a Rectangle patch
             draw.rectangle(box)
             font = ImageFont.truetype("NotoSans-Regular.ttf", size=40)
