@@ -16,7 +16,6 @@ from utils import denormalize
 import csv
 import os
 def _visualize_(img,dmap,output,itr):
-   #print(dmap.shape,np.max(np.array(img)))
    # keep the same aspect ratio as an input image
     fig, ax = plt.subplots(figsize=figaspect(1.0 * img.shape[0] / img.shape[1]))
     fig.subplots_adjust(0, 0, 1, 1)
