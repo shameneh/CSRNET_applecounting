@@ -1,5 +1,5 @@
 '''
-This script is for generating the ground truth density map 
+This script is for generating the ground truth density map  
 '''
 import numpy as np
 from PIL import Image
