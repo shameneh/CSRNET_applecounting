@@ -8,7 +8,6 @@ import sys
 from tqdm import tqdm
 
 from config import Config
-#from model import CSRNet
 from model import CSRNet
 
 from dataset import create_train_dataloader,create_test_dataloader
