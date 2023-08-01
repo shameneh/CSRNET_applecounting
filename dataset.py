@@ -73,7 +73,7 @@ def create_train_dataloader(root, use_flip,image_size, batch_size):
         main_trans_list.append(RandomHorizontalFlip())
     main_trans_list.append(PairedCrop())
     main_trans = Compose(main_trans_list)
-    img_trans = Compose([ToTensor()])#, Normalize(mean=[0.5,0.5,0.5],std=[0.225,0.225,0.225])])
+    img_trans = Compose([ToTensor()])#, Normalize(mean=[0.5,0.5,0.5],std=[0.225,0.225,0.225])]) 
     dmap_trans = ToTensor()
     dataset = CrowdDataset(root=root, phase='train',image_size =image_size, main_transform=main_trans, 
                     img_transform=img_trans,dmap_transform=dmap_trans)
